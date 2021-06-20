@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2021-06-18 14:12:37
  * @LastEditors: AiDongYang
- * @LastEditTime: 2021-06-18 16:53:44
+ * @LastEditTime: 2021-06-19 19:23:38
  */
 /**
  * Eslint 检查规则（A）
@@ -321,9 +321,7 @@ module.exports = defineConfig({
 		// 禁止在行尾添加尾随空白（空格，制表符和其他 Unicode 空白字符）
 		'no-trailing-spaces': 2,
 		// 禁止引用未声明的变量
-		'no-undef': 2,
-		// 禁止使用 undefined 来初始化变量
-		'no-undef-init': 2,
+		'no-undef': 0,
 		// 禁止混淆多行表达式
 		'no-unexpected-multiline': 2,
 		// 检查循环条件内的引用是否在循环中被修改
