@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2021-06-18 16:55:36
  * @LastEditors: AiDongYang
- * @LastEditTime: 2021-06-20 12:07:44
+ * @LastEditTime: 2021-06-21 16:48:11
  */
 import type { App } from 'vue'
 import type { RouteRecordRaw } from 'vue-router'
@@ -38,5 +38,6 @@ export function resetRouter() {
 
 // config router
 export function setupRouter(app: App<Element>) {
+	console.log(router)
 	app.use(router)
 }
