@@ -1,0 +1,3 @@
+import { FunctionalComponent } from 'vue';
+declare const InternalSubMenuList: FunctionalComponent<any>;
+export default InternalSubMenuList;
